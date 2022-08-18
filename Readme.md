@@ -36,6 +36,7 @@ mim install mmcv-full
 [yolox训练权重](https://huggingface.co/7eu7d7/genshin_autoplay_domain/blob/main/epoch_60_ckpt_s.pth)
 
 ## 运行程序
+以管理员模式启动命令行，运行程序:
 ```bash
 python auto_play.py
 ```
