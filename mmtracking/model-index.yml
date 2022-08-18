@@ -1,0 +1,12 @@
+Import:
+  - configs/mot/deepsort/metafile.yml
+  - configs/mot/tracktor/metafile.yml
+  - configs/mot/qdtrack/metafile.yml
+  - configs/mot/bytetrack/metafile.yml
+  - configs/sot/siamese_rpn/metafile.yml
+  - configs/sot/stark/metafile.yml
+  - configs/vid/dff/metafile.yml
+  - configs/vid/fgfa/metafile.yml
+  - configs/vid/selsa/metafile.yml
+  - configs/vid/temporal_roi_align/metafile.yml
+  - configs/vis/masktrack_rcnn/metafile.yml

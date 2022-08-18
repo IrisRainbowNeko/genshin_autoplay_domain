@@ -1,0 +1,129 @@
+#凌华冰队
+p1:
+  interval: 21
+  action: |-
+    switch 4
+    delay 0.4
+    key down e
+    delay 1.2
+    key up e
+    delay 0.3
+    
+    #猫猫盾
+    switch 2
+    delay 0.4
+    key down e
+    delay 0.5
+    key up e
+    delay 0.3
+    
+    #行秋
+    switch 1
+    delay 0.4
+    key down e
+    delay 0.5
+    key up e
+    delay 1.0
+    key q
+    delay 1.0
+    
+    #凌华E
+    switch 3
+    delay 0.4
+    mouse r 0.2
+    delay 0.3
+    key e
+    delay 0.6
+
+    #普攻+重击
+    mouse l 0.1
+    delay 0.2
+    mouse l 0.1
+    delay 0.2
+    mouse l 0.1
+    delay 0.2
+    mouse l 0.1
+    delay 0.2
+    mouse l 0.6
+    delay 0.2
+
+p2:
+  interval: 8
+  action: |-
+    switch 4
+    delay 0.4
+    key down e
+    delay 1.2
+    key up e
+    delay 0.3
+    
+    #猫猫盾
+    switch 2
+    delay 0.4
+    key down e
+    delay 0.5
+    key up e
+    delay 0.3
+    
+    key q
+    delay 0.5
+    
+    #凌华E
+    switch 3
+    delay 0.4
+    mouse r 0.2
+    delay 0.3
+    key e
+    delay 0.6
+
+    #普攻+重击
+    mouse l 0.1
+    delay 0.2
+    mouse l 0.1
+    delay 0.2
+    mouse l 0.1
+    delay 0.2
+    mouse l 0.1
+    delay 0.2
+    mouse l 0.6
+    delay 0.2
+
+p3:
+  interval: 5
+  action: |-
+    switch 3
+    delay 0.4
+    mouse r 0.2
+    delay 0.6
+    
+    #普攻+重击
+    mouse l 0.1
+    delay 0.2
+    mouse l 0.1
+    delay 0.2
+    mouse l 0.6
+    delay 0.2
+
+p_else:
+  interval: 1
+  action: |-
+    switch 3
+    delay 0.1
+    mouse r 0.2
+    delay 0.05
+    
+    mouse l 0.1
+    delay 0.2
+    mouse l 0.1
+    delay 0.2
+
+p_shield:
+  interval: 16
+  type: break
+  action: |-
+    switch 4
+    delay 0.4
+    key down e
+    delay 1.2
+    key up e
+    delay 0.3

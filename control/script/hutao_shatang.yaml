@@ -1,0 +1,100 @@
+#胡桃砂糖
+p1:
+  interval: 21
+  action: |-
+    mouse r 0.2
+    delay 0.2
+    switch 1
+    delay 0.2
+    key down e
+    delay 1.2
+    key up e
+    delay 0.3
+    
+    #砂糖
+    switch 4
+    delay 0.5
+    key e
+    delay 1.0
+    key e
+    delay 1.0
+    key q
+    delay 0.8
+    
+    #行秋
+    switch 3
+    delay 0.5
+    key e
+    delay 1.2
+    key q
+    delay 1.0
+    
+    #胡桃
+    switch 2
+    delay 0.2
+    key e
+    delay 0.4
+    
+    key down a
+    mouse l 0.8
+    key up a
+    delay 0.3
+    
+    key down d
+    mouse l 0.8
+    key up d
+    delay 0.3
+    
+    key down a
+    mouse l 0.8
+    key up a
+    delay 0.3
+    
+    key down d
+    mouse l 0.8
+    key up d
+    delay 0.3
+    
+    key down a
+    mouse l 0.8
+    key up a
+    delay 0.3
+    
+    key down d
+    mouse l 0.8
+    key up d
+    delay 0.3
+    
+    key down a
+    mouse l 0.8
+    key up a
+    delay 0.3
+    
+    switch 2
+    delay 0.8
+    key q
+    delay 0.3
+
+p_else:
+  interval: 1
+  action: |-
+    switch 2
+    delay 0.1
+    mouse r 0.2
+    delay 0.05
+    
+    mouse l 0.1
+    delay 0.2
+    mouse l 0.1
+    delay 0.2
+
+p_shield:
+  interval: 16
+  type: break
+  action: |-
+    switch 1
+    delay 0.4
+    key down e
+    delay 1.2
+    key up e
+    delay 0.3
