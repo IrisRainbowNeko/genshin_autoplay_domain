@@ -24,8 +24,16 @@ mim install mmcv-full
 ## 安装mmtracking
 安装方法参考[mmtracking](https://github.com/open-mmlab/mmtracking)
 
+下载训练权重放入```mmtracking/checkpoints/```文件夹中
+
+[mmtracking训练权重](https://download.openmmlab.com/mmtracking/sot/siamese_rpn/siamese_rpn_r50_1x_lasot/siamese_rpn_r50_20e_lasot_20220420_181845-dd0f151e.pth)
+
 ## 安装yolox
 安装方法参考[YOLOX](https://github.com/Megvii-BaseDetection/YOLOX)
+
+下载原神数据集训练权重放入```yolox/ckpt/```文件夹中
+
+[yolox训练权重](https://huggingface.co/7eu7d7/genshin_autoplay_domain/blob/main/epoch_60_ckpt_s.pth)
 
 ## 运行程序
 ```bash
