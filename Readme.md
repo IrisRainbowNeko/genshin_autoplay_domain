@@ -35,6 +35,31 @@ mim install mmcv-full
 
 [yolox训练权重](https://huggingface.co/7eu7d7/genshin_autoplay_domain/blob/main/epoch_60_ckpt_s.pth)
 
+## 战斗策略配置
+刷本战斗策略配置文件在```control/script/```文件夹内，目前有两个例子。
+每个文件内可以配置多条战斗策略，每个策略设置一定冷却时间。
+程序会按从上到下的优先级，运行最先冷却完的策略。
+
+如果策略内添加了
+```yaml
+type: break
+```
+字段，则这一策略具有最高优先级，只要冷却好就优先执行，可以打断其他正在运行的策略。
+
+支持的指令
+```
+switch 4 #切换到4号位角色
+delay i #等待i秒
+key e #敲击键盘按键e
+key down e #按下键盘按键e不放
+key up e #抬起键盘按键e
+mouse l i #按下左键i秒
+mouse r i #按下右键i秒
+```
+
+## 刷本配置
+在```cfgs/```中配置刷本策略，其中有示例文件。
+
 ## 运行程序
 以管理员模式启动命令行，运行程序:
 ```bash
